@@ -1,1 +1,184 @@
 # xelvaron
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Resmi Kelas Kami</title>
+    <style>
+        /* Elemen Utama Website */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6; /* Warna dasar Silver/Abu-abu sangat terang */
+            color: #4a3728; /* Warna teks Cokelat Gelap agar mudah dibaca */
+        }
+
+        /* Bagian Header / Banner Atas */
+        header {
+            background-color: #c2a679; /* Warna Cokelat Muda Pramuka */
+            color: #ffffff;
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 5px solid #cbd5e1; /* Pembatas warna Silver */
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+        }
+
+        header p {
+            margin: 10px 0 0 0;
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        /* Kontainer Konten */
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        /* Kartu Informasi (Informasi Kelas) */
+        .card {
+            background-color: #ffffff;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        .card h2 {
+            margin-top: 0;
+            color: #8c6d40; /* Cokelat Pramuka Agak Tegas untuk Judul */
+            border-bottom: 2px solid #cbd5e1; /* Garis bawah Silver */
+            padding-bottom: 8px;
+        }
+
+        /* Gaya List/Daftar Pengurus */
+        .pengurus-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .pengurus-list li {
+            padding: 10px 15px;
+            margin-bottom: 8px;
+            background-color: #f9fafb; /* Silver super terang */
+            border-left: 4px solid #c2a679; /* Aksen Cokelat Pramuka */
+            border-radius: 0 4px 4px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .jabatan {
+            font-weight: bold;
+            color: #8c6d40;
+        }
+
+        /* Gaya Tabel Jadwal */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        th {
+            background-color: #cbd5e1; /* Warna Silver untuk Header Tabel */
+            color: #4a3728;
+        }
+
+        tr:hover {
+            background-color: #f3f4f6;
+        }
+
+        /* Bagian Atas / Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #4a3728; /* Cokelat Tua */
+            color: #cbd5e1; /* Teks Silver */
+            font-size: 0.9rem;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER WEBSITE -->
+    <header>
+        <h1>Selamat Datang di Kelas Kita</h1>
+        <p>Ruang Informasi, Kreativitas, dan Kebersamaan</p>
+    </header>
+
+    <!-- KONTEN UTAMA -->
+    <div class="container">
+
+        <!-- KARTU 1: SLOGAN KELAS -->
+        <div class="card">
+            <h2>Motto Kelas</h2>
+            <p style="font-style: italic; font-size: 1.1rem; text-align: center;">
+                "Disiplin layaknya Pramuka, bersinar bagaikan Silver."
+            </p>
+        </div>
+
+        <!-- KARTU 2: STRUKTUR ORGANISASI -->
+        <div class="card">
+            <h2>Struktur Organisasi</h2>
+            <ul class="pengurus-list">
+                <li><span class="jabatan">Wali Kelas:</span> <span>Nama Guru, S.Pd.</span></li>
+                <li><span class="jabatan">Ketua Kelas:</span> <span>Nama Ketua</span></li>
+                <li><span class="jabatan">Wakil Ketua:</span> <span>Nama Wakil</span></li>
+                <li><span class="jabatan">Sekretaris:</span> <span>Nama Sekretaris</span></li>
+                <li><span class="jabatan">Bendahara:</span> <span>Nama Bendahara</span></li>
+            </ul>
+        </div>
+
+        <!-- KARTU 3: JADWAL PIKET -->
+        <div class="card">
+            <h2>Jadwal Piket Hari Ini</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Hari</th>
+                        <th>Petugas Kebersihan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Senin</strong></td>
+                        <td>Andi, Budi, Citra, Dewi</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Selasa</strong></td>
+                        <td>Eko, Fani, Gita, Hendra</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Rabu</strong></td>
+                        <td>Indah, Jaka, Kartika, Lani</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+    <!-- FOOTER WEBSITE -->
+    <footer>
+        <p>&copy; 2026 Website Kelas Kita. Dibuat dengan GitHub Pages.</p>
+    </footer>
+
+</body>
+</html>
